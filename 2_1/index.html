@@ -7,17 +7,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
   $(function(){
-    // ここに処理を記述
-    $().on("click", function(){
+    $("button").on("click", function(){
+      alert('ボタンをクリックしました')
     });
   });
   </script>
 </head>
 <body>
   <div id="wrapper">
-    <div id="button">
+    <button id="button">
       <p>button</p>
-    </div><!-- button -->
+    </button><!-- button -->
   </div><!-- wrapper -->
 </body>
 </html>
